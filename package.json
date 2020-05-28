@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
-    "dev": "env-cmd -f ./config/dev.env nodemon src/index.js",
-    "mongodb": "C:/Users/Avi/mongodb/bin/mongod.exe  --storageEngine=mmapv1 --dbpath=C:/Users/Avi/mongodb-data"
+    "dev": "env-cmd -f ./config/dev.env nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
